@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.card {
+  width: 500px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+h1, h3 {
+  color: #37474f;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #00897b, #00695c);
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 12px 12px 0 0;
+  text-transform: uppercase;
+}
+
+.card-body {
+  padding: 30px 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #00897b;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: rgba(55, 71, 79, 0.7); 
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #b0bec5;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: #e8f5e9;
+  color: #37474f;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #00897b;
+  box-shadow: 0 0 8px rgba(0, 137, 123, 0.4);
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #00897b, #00695c);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 137, 123, 0.4);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #00796b, #004d40);
+  transform: translateY(-3px);
+}
+
+.card-footer {
+  padding: 12px;
+  font-size: 0.9rem;
+  background-color: #f1f8e9;
+  color: #78909c;
+  border-top: 1px solid #cfd8dc;
+  font-style: italic;
+  border-radius: 0 0 12px 12px;
+}
+
+h1, h3 {
+  color: #00695c;
+  font-weight: 700;
+}
